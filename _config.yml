@@ -18,3 +18,8 @@ defaults:
       date_format: "%Y-%m-%d"
       read_time: true
       enable_copy_code_button:  true
+      comments: true
+comments:
+  provider: "disqus"
+  disqus:
+    shortname: "rowland-208-github-io"
