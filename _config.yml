@@ -24,9 +24,14 @@ defaults:
       share: true
       related: true
 comments:
-  provider: "disqus"
-  disqus:
-    shortname: "rowland-208-github-io"
+  provider: "giscus"
+  giscus:
+    repo_id              : "R_kgDOMhoGIA"
+    category_name        : "Blog Post Comments"
+    category_id          : "DIC_kwDOMhoGIM4ChiUf"
+    discussion_term      : "pathname"
+    reactions_enabled    : "1"
+    theme                : "preferred_color_scheme"
 atom_feed:
   hide: true
 search: true
