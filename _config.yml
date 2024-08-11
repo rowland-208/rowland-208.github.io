@@ -17,9 +17,23 @@ defaults:
       show_date: true
       date_format: "%Y-%m-%d"
       read_time: true
-      enable_copy_code_button:  true
+      enable_copy_code_button: true
       comments: true
+      layout: single
+      author_profile: true
+      share: true
+      related: true
 comments:
   provider: "disqus"
   disqus:
     shortname: "rowland-208-github-io"
+atom_feed:
+  hide: true
+search: true
+lunr:
+  search_within_pages: true
+author:
+  name     : "James Rowland"
+  avatar   : "/assets/images/bio-photo.jpg"
+  bio      : "AI, physics, astrodynamics, technology."
+  location : "North Carolina, USA"
