@@ -57,13 +57,13 @@ Current approach:
 
 It worked! I ended up using k means to select 10 colors. Then travelling salesman with the CIE2000 distance function. I ended up scaling the luminance by 1/10 to reduce the impact on sorting. Runs of colors are more important than monotonically increasing luminance. You can see how the package works in this jupyter notebook [rowland-208/colorsort](https://github.com/rowland-208/colorsort/blob/main/etc/examples.ipynb).
 
-![alt text](../assets/saturn.png)
+![alt text](../assets/images/saturn.png)
 
-![alt text](../assets/saturn-colors.png)
+![alt text](../assets/images/saturn-colors.png)
 
-![alt text](../assets/parrots.png)
+![alt text](../assets/images/parrots.png)
 
-![alt text](../assets/parrots-colors.png)
+![alt text](../assets/images/parrots-colors.png)
 
 Finally, as a separate endeavor I learned about creating a python package. I found this article that was helpful, except that the section on including data has a poor recommendation. Instead of pkg_resource it is advisable to use the pkgutil.get_data method in the standard library. I learned how to use tox. It handles the environment side of testing, including testing multiple python distros [link](https://kiwidamien.github.io/making-a-python-package-viii-summary.html), [link](https://tox.readthedocs.io/en/latest/example/basic.html).
 
