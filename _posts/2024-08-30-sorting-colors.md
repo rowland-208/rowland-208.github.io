@@ -1,8 +1,8 @@
-My friend sent me a meme about using your favorite pokemon to style your plots and I was instantly nerd snipe.
-"That sounds easy and fun to automate. I should create a python package for it."
-Oh how naive I was.
+My friend sent a meme along the lines of "need to choose a color palette for your plots? Just choose your favorite pokemon and use those colors."
+I was nerd sniped immediately.
+"Oh! That sounds easy and fun to automate. I should create a python package for it."
+I was so naive.
 Most of it was easy, and the final result is great (shameless plug for [rowland-208/palettetown](https://github.com/rowland-208/palettetown/blob/main/etc/examples.ipynb).
-
 But there was one problem I did not see coming that took a bit of creativity to solve.
 The end result was a python package called colorsort that sorts colors.
 You can see it in action at [rowland-208/colorsort](https://github.com/rowland-208/colorsort/blob/main/etc/examples.ipynb).
