@@ -55,7 +55,7 @@ Current approach:
 * if more than 10 colors, reduce to 10 by k-means clustering,
 * solve travelling salesman and force highest and lowest luminance points to be neighbors [link](https://stackoverflow.com/questions/14527815/how-to-fix-the-start-and-end-points-in-travelling-salesmen-problem).
 
-It worked! I ended up using k means to select 10 colors. Then travelling salesman with the CIE2000 distance function. I ended up scaling the luminance by 1/10 to reduce the impact on sorting. Runs of colors are more important than monotonically increasing luminance. You can see results in this jupyter notebook.
+It worked! I ended up using k means to select 10 colors. Then travelling salesman with the CIE2000 distance function. I ended up scaling the luminance by 1/10 to reduce the impact on sorting. Runs of colors are more important than monotonically increasing luminance. You can see how the package works in this jupyter notebook [rowland-208/colorsort](https://github.com/rowland-208/colorsort/blob/main/etc/examples.ipynb).
 
 ![alt text](../_assets/saturn.png)
 
