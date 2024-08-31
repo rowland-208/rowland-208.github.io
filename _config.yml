@@ -37,6 +37,6 @@ lunr:
   search_within_pages: true
 author:
   name     : "James Rowland"
-  avatar   : "/assets/images/bio-photo.jpg"
+  avatar   : "/assets/images/bio-photo.png"
   bio      : "AI, physics, astrodynamics, technology."
   location : "North Carolina, USA"
