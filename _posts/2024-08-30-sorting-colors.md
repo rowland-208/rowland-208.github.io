@@ -13,12 +13,6 @@ For palettetown the big challenge is to pick colors and order them such that:
 * the plots are perceptually monotonic and continuous for false color plots, and
 * curves are easy to distinguish for line and scatter plots.
 
-As a teaser, check out these results!
-
-![alt text](/assets/images/parrots.png)
-
-![alt text](/assets/images/parrots-colors.png)
-
 In my early investigation I found several ways of sorting colors for false color plots.
 I found a great resource with some suggestions [link](https://www.alanzucconi.com/2015/09/30/colour-sorting/).
 
@@ -63,7 +57,7 @@ The approach I finally landed on involves two steps.
 
 It worked! I ended up using k means to select 10 colors. Then travelling salesman with the CIE2000 distance function. I ended up scaling the luminance by 1/10 to reduce the impact on sorting. Runs of colors are more important than monotonically increasing luminance. Our derived palettes satisfy all of our initial requirements:
 
-* the resulting plots are reminiscent of the pokemon,
+* the resulting plots are reminiscent of the ~~pokemon~~ input image,
 * the plots are perceptually monotonic and continuous for false color plots, and
 * curves are easy to distinguish for line and scatter plots.
 
