@@ -61,13 +61,13 @@ It worked! I ended up using k means to select 10 colors. Then travelling salesma
 * the plots are perceptually monotonic and continuous for false color plots, and
 * curves are easy to distinguish for line and scatter plots.
 
-![alt text](../assets/images/saturn.png)
+![alt text](/assets/images/saturn.png)
 
-![alt text](../assets/images/saturn-colors.png)
+![alt text](/assets/images/saturn-colors.png)
 
-![alt text](../assets/images/parrots.png)
+![alt text](/assets/images/parrots.png)
 
-![alt text](../assets/images/parrots-colors.png)
+![alt text](/assets/images/parrots-colors.png)
 
  You can see how the package works in this jupyter notebook [rowland-208/colorsort](https://github.com/rowland-208/colorsort/blob/main/etc/examples.ipynb). And you can see the package in action to convert pokemon to palettes in this script [rowland-208/palettetown](https://github.com/rowland-208/palettetown/blob/main/etc/fill_pokedex.py)
 
