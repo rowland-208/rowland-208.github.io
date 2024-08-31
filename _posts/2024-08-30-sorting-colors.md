@@ -13,7 +13,7 @@ For palettetown the big challenge is to pick colors and order them such that:
 * the plots are perceptually monotonic and continuous for false color plots, and
 * curves are easy to distinguish for line and scatter plots.
 
-As a teaser, the final results look great!
+As a teaser, check out these results!
 
 ![alt text](/assets/images/parrots.png)
 
