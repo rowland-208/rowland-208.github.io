@@ -13,6 +13,12 @@ For palettetown the big challenge is to pick colors and order them such that:
 * the plots are perceptually monotonic and continuous for false color plots, and
 * curves are easy to distinguish for line and scatter plots.
 
+As a teaser, the final results look great!
+
+![alt text](/assets/images/parrots.png)
+
+![alt text](/assets/images/parrots-colors.png)
+
 In my early investigation I found several ways of sorting colors for false color plots.
 I found a great resource with some suggestions [link](https://www.alanzucconi.com/2015/09/30/colour-sorting/).
 
