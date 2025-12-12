@@ -34,9 +34,9 @@ The Setup: You write a text file and ask an interpreter to run it. The Reality: 
 
 The Setup: You write code that talks directly to the hardware. The Reality: The computer doesn't understand C or Rust text files. You need a Compiler—a translator that turns your English-looking text into machine code (1s and 0s).
 
-    C: You are manually operating the machinery. You have to tell the compiler exactly where to find every file (flags), and how to stitch them together (makefiles).
+C: You are manually operating the machinery. You have to tell the compiler exactly where to find every file (flags), and how to stitch them together (makefiles).
 
-    Rust: Slightly better. It comes with a build system (Cargo) that handles the "stitching" for you, but you still have to install the toolchain. Difficulty: 8/10.
+Rust: Slightly better. It comes with a build system (Cargo) that handles the "stitching" for you, but you still have to install the toolchain. Difficulty: 8/10.
 
 ### 4. The Ecosystem Tier: Android & Flutter
 
